@@ -90,7 +90,7 @@ class DateTimeFileWriter
     {
         //Merge user settings
         $this->settings = array_merge(array(
-            'path' => './logs',
+            'path' => __DIR__.'/../../../app/logs',
             'name_format' => 'Y-m-d',
             'extension' => 'log',
             'message_format' => '%label% - %date% - %message%'
